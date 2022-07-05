@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MethodsExercise2
+namespace MethodsExercise
 {
     class Program
     {
