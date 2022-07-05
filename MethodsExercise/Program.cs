@@ -45,10 +45,12 @@ namespace MethodsExercise
 
             //exercise 2
 
-            var numsAdded = Add(3, 5);
-            var numsSubtracted = Subtract(4, 2);
-            var numsMultiplied = Multiply(2, 4);
-            var numsDivided = Divide(9, 3);
+            var numApples = Add(3, 5);
+            var numOranges = Subtract(4, 2);
+            var numPears = Multiply(2, 4);
+            var numPeaches = Divide(9.0, 3);
+
+            Console.WriteLine($"There are {numApples} apples, {numOranges} oranges, {numPears} pears and {numPeaches} peaches in the kitchen.");
 
         }
         
